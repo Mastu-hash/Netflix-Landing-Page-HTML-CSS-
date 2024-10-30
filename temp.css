@@ -1,0 +1,158 @@
+@media only screen and (max-width: 600px){
+     body{
+       width: 100%;
+     }
+    .hero{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+     }
+   
+   
+     .hero > :nth-child(1) {
+       font-weight: 900;
+       font-size: 28px;
+       text-align: center;
+     }
+     .hero > :nth-child(2) {
+       font-size: 20px;
+       font-weight: 400;
+       text-align: center;
+     }
+     .hero > :nth-child(3) {
+       font-size: 16px;
+       font-weight: 400;
+       text-align: center;
+     }
+     .btn-red2{
+       margin-left: 50px;
+     }
+     .part2 {
+       display:block;
+      
+       color: white;
+    
+      
+     }
+     .part2 :first-child {
+       font-size: 28px;
+       font-weight: 900;
+     }
+     .part2 :nth-child(2) {
+       font-size: 20px;
+       font-weight: 400;
+     }
+   
+     .video1 {
+       position: absolute;
+       
+     }
+   
+     .secImg img {
+       width: 450px;
+       position: relative;
+       z-index: 10;
+     }
+   
+     
+   .secImg .video1 {
+     position: absolute;
+     top: 67px;
+     right: 191px;
+     
+     width: 326px;
+     height: 192px;
+     position: fixed;
+   }
+   .sepration {
+     background-color: rgb(46, 44, 44);
+     height: 7px;
+     width: 100%;
+   }
+   
+   }
+
+
+   harrry
+
+
+
+
+   @media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+  
+    .first {
+        flex-wrap: wrap;
+    }
+  
+    .secImg img {
+        width: 305px;
+    }
+  
+    .secImg video {
+        width: 305px;
+    }
+  
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+  
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+  
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+  
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+  
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+  
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+  
+    .footer-item{
+        align-items: center;
+    }
+  
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 1300px) {
+  
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+  }
+  
+  
+  .footer a {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
